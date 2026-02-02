@@ -12,7 +12,7 @@
         #video-bg {
             position: fixed;
             top: 0;
-            left: 0;
+            left: 0;scriptsc
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -178,7 +178,13 @@
         import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, onSnapshot, updateDoc, deleteDoc, doc, serverTimestamp, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-        const firebaseConfig = { apiKey: "AIzaSyDZAUqA4MVwNCEDA-QlacfMOOJJQUk_NVI", authDomain: "mybugtracker-d7ceb.firebaseapp.com", projectId: "mybugtracker-d7ceb", storageBucket: "mybugtracker-d7ceb.firebasestorage.app", messagingSenderId: "14365708367", appId: "1:14365708367:web:d3f9b9c8b630cb3f845a3a" };
+        const firebaseConfig = {  apiKey: "AIzaSyDnJ3_pSyf59mYTDr-rPn0r-srcsJmsrYY",
+  authDomain: "bug-tracker-c965b.firebaseapp.com",
+  projectId: "bug-tracker-c965b",
+  storageBucket: "bug-tracker-c965b.firebasestorage.app",
+  messagingSenderId: "623755607974",
+  appId: "1:623755607974:web:e59db28a9ed1d4aa105967",
+  measurementId: "G-3DYGTFS2NC" };
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
         const db = getFirestore(app);
@@ -372,3 +378,4 @@
     </script>
 </body>
 </html>
+
